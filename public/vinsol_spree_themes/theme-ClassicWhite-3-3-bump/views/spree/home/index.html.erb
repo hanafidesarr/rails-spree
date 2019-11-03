@@ -7,8 +7,8 @@
 <% end %>
 
 <section class="homepage-product-section" data-hook="homepage_products">
-  <h2 class="section-heading no-border">Featured Products</h2>
-
+  <!-- <h2 class="section-heading no-border">Featured Products</h2> -->
+  <br>
   <% cache(cache_key_for_products) do %>
     <%= render partial: 'spree/shared/products', locals: { products: @products } %>
   <% end %>
