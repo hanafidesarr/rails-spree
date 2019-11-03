@@ -1,0 +1,21 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: hafiz
+  pool: 5
+  username: root
+  password: root
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: myapp_test
+  pool: 5
+  username: root
+  password: root
+
+# setup for heroku
+production:
+  database: d2c79pn7c4bfp1
+  username: zhainyaococmxy
+  password: d94141a7a51a3d8d7d10409eeb6214f6a54e5656488c9096f177e36bc4e1d5b6
