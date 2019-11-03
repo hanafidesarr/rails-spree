@@ -34,8 +34,12 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 
-# Use pg as the database for Active Record
-gem 'pg'
+# # Use pg as the database for Active Record
+# gem 'pg'
+
+
+# Use mysql as the database for Active Record
+gem 'mysql2'
 
 gem 'spree', '~> 3.7.0'
 gem 'spree_auth_devise', '~> 3.5'
@@ -46,6 +50,7 @@ gem 'vinsol_spree_themes', github: 'vinsol-spree-contrib/spree_themes', branch: 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+gem 'spree_slider', github: 'spree-contrib/spree_slider'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
